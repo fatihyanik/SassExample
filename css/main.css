@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: royalblue;
+}
+
+.container {
+    width: 500px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.container .login-header {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.container .login-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container .login-content input {
+    height: 50px;
+    padding: 0 20px;
+    border: 2px solid #a7c0cf;
+    margin-bottom: 20px;
+}
+
+.container .login-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .login-footer .login-footer a {
+    color: #998c8c;
+    transition: 300ms all;
+}
+
+.container .login-footer .login-footer a .login-footer a:hover {
+    color: black;
+}
+
+.egim,
+.login-footer a:first-child,
+.signup a {
+    transition: 300ms all;
+}
+
+.login-footer a:first-child {
+    background-color: royalblue;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border-radius: 3px;
+}
+
+.login-footer a:first-child:hover {
+    background-color: black;
+}
+
+.signup a {
+    display: block;
+    color: white;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
